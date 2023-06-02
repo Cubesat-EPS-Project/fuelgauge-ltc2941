@@ -100,7 +100,7 @@
   (net 9 "unconnected-(IC1-EP-Pad9)")
   (net 10 "3.3V")
 
-  (footprint "RST 0.025:CRA2512-FZ-R025ELF" (layer "F.Cu")
+  (footprint "Library:CRA2512-FZ-R025ELF" (layer "F.Cu")
     (tstamp 3b750ee5-a3df-49f3-9ed2-62ab76940f33)
     (at 186.69 75.184 -90)
     (property "Sheetfile" "fuelguage.kicad_sch")
@@ -247,14 +247,14 @@
       (net 10 "3.3V") (pintype "passive") (tstamp 19f6fde6-5e8b-4ce1-9dd8-7e28cdd54e46))
     (pad "2" smd rect (at 2.9845 0 270) (size 1.397 3.5306) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "Net-(IC1-SDA)") (pintype "passive") (tstamp 97d5bc2a-88e4-4694-92f4-3419568eed01))
-    (model "/mnt/DAA829C1A8299CCF/EEE/S7/PROJ/COMPS/RST/0.025/ul_CRA2512-FZ-R025ELF/2023-01-03_07-54-13/STEP/BO_CRA2512.step"
+    (model "${KIPRJMOD}/packages3D/BO_CRA2512.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Fuelguage ltc:SOP65P490X110-9N" (layer "F.Cu")
+  (footprint "Library:SOP65P490X110-9N" (layer "F.Cu")
     (tstamp 5c954888-9eab-424d-a9cf-c39546243b90)
     (at 171.524 76.241)
     (descr "MS8E Package 8-Lead Plastic MSOP, Exposed Die Pad")
@@ -319,14 +319,19 @@
       (net 8 "Net-(IC1-SENSE-)") (pinfunction "SENSE-") (pintype "passive") (tstamp 784c89e7-6685-4771-82a1-6758f869ad10))
     (pad "9" smd rect (at 0 0) (size 1.68 1.88) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 9 "unconnected-(IC1-EP-Pad9)") (pinfunction "EP") (pintype "passive") (tstamp 2be116de-7a00-4570-b55f-3e67bd3e177a))
-    (model "LTC2941IMS8E#PBF.stp"
+    (model "${KIPRJMOD}/packages3D/LTC2941IMS8E#PBF.stp" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/packages3D/LTC2941IMS8E#PBF.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "2.2k:RESC2012X65N" (layer "F.Cu")
+  (footprint "Library:RESC2012X65N" (layer "F.Cu")
     (tstamp bdbf4733-0d66-47f7-b0c6-c8830021673a)
     (at 171.704 72.644)
     (descr "SDR10")
@@ -371,14 +376,14 @@
       (net 1 "Net-(IC1-SENSE+)") (pintype "passive") (tstamp 07267e43-5505-4a76-a0fc-48f93bfb750b))
     (pad "2" smd rect (at 0.95 0) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "Net-(IC1-SENSE-)") (pintype "passive") (tstamp 399751ee-3d5b-4f67-82a3-02a7509e654f))
-    (model "SDR10EZPJ222.stp"
+    (model "${KIPRJMOD}/packages3D/SDR10EZPJ222.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "RST 0.025:CRA2512-FZ-R025ELF" (layer "F.Cu")
+  (footprint "Library:CRA2512-FZ-R025ELF" (layer "F.Cu")
     (tstamp c1d1a495-7e1e-40ed-83c6-ca962af129d8)
     (at 164.592 73.7235 90)
     (property "Sheetfile" "fuelguage.kicad_sch")
@@ -525,14 +530,14 @@
       (net 3 "Net-(IC1-SCL)") (pintype "passive") (tstamp e5c2cd7a-e147-4c3d-b097-cc038f791b5a))
     (pad "2" smd rect (at 2.9845 0 90) (size 1.397 3.5306) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "3.3V") (pintype "passive") (tstamp f6b9d779-a427-4970-bf2b-dd83382da99a))
-    (model "/mnt/DAA829C1A8299CCF/EEE/S7/PROJ/COMPS/RST/0.025/ul_CRA2512-FZ-R025ELF/2023-01-03_07-54-13/STEP/BO_CRA2512.step"
+    (model "${KIPRJMOD}/packages3D/BO_CRA2512.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "RST 0.025:CRA2512-FZ-R025ELF" (layer "F.Cu")
+  (footprint "Library:CRA2512-FZ-R025ELF" (layer "F.Cu")
     (tstamp fb21c765-7c59-44b5-965f-b4bea2b212f5)
     (at 179.07 72.39 -90)
     (property "Sheetfile" "fuelguage.kicad_sch")
@@ -679,7 +684,7 @@
       (net 10 "3.3V") (pintype "passive") (tstamp 785722ee-6d72-4a2b-80ea-fb550edda1b6))
     (pad "2" smd rect (at 2.9845 0 270) (size 1.397 3.5306) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "Net-(IC1-~{AL}{slash}CC)") (pintype "passive") (tstamp fd9e5ae6-8e54-44b1-a732-6a41ea5d79aa))
-    (model "/mnt/DAA829C1A8299CCF/EEE/S7/PROJ/COMPS/RST/0.025/ul_CRA2512-FZ-R025ELF/2023-01-03_07-54-13/STEP/BO_CRA2512.step"
+    (model "${KIPRJMOD}/packages3D/BO_CRA2512.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

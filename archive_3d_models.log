@@ -1,0 +1,29 @@
+06-02 10:13:12 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'linux'
+06-02 10:13:12 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.11.3 (main, Apr  5 2023, 15:52:25) [GCC 12.2.1 20230201]'
+06-02 10:13:12 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 7.0.5
+06-02 10:13:12 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.9
+
+06-02 10:13:12 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080)]
+06-02 10:13:12 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+06-02 10:13:12 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 19
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 24:Starting to archive 3D models
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: R4
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/packages3D/BO_CRA2512.step
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/packages3D/BO_CRA2512.step
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: IC1
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: /mnt/DAA829C1A8299CCF/EEE/S7/PROJ/COMPS/FUELGG/LIB_LTC2941IMS8E#PBF/LTC2941IMS8E#PBF/3D/LTC2941IMS8E#PBF.stp
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: /mnt/DAA829C1A8299CCF/EEE/S7/PROJ/COMPS/FUELGG/LIB_LTC2941IMS8E#PBF/LTC2941IMS8E#PBF/3D/LTC2941IMS8E#PBF.stp
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/packages3D/LTC2941IMS8E#PBF.stp
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/packages3D/LTC2941IMS8E#PBF.stp
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: R1
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/packages3D/SDR10EZPJ222.stp
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 132:Did not copy: ${KIPRJMOD}/packages3D/SDR10EZPJ222.stp
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/packages3D/SDR10EZPJ222.stp
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: R3
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/packages3D/BO_CRA2512.step
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/packages3D/BO_CRA2512.step
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: R2
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: ${KIPRJMOD}/packages3D/BO_CRA2512.step
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: ${KIPRJMOD}/packages3D/BO_CRA2512.step
+06-02 10:13:13 com_github_MitjaNemec_Archive3DModels.archive_3d_models 147:Did not succeed to copy 3D models!
+('R1', '${KIPRJMOD}/packages3D/SDR10EZPJ222.stp')
